@@ -4,7 +4,7 @@ pipeline {
         stage('Test') {
             steps {
                 //sh 'echo "Fail!"; exit 1'
-                sh 'echo "Pass!"; exit 0'
+                sh 'echo "Pass!"'
             }
         }
         stage('UAT') {
