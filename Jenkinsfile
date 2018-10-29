@@ -3,14 +3,14 @@ pipeline {
     stages {
         stage('Test') {
             steps {
-                //sh 'echo "Fail!"; exit 1'
-                sh 'echo "Pass!"'
+                //sh 'echo "Test Fail!"; exit 1'
+                sh 'echo "Test Pass!"'
             }
         }
         stage('UAT') {
             steps {
-                //sh 'echo "Fail!"; exit 1'
-                sh 'echo "Pass!"; exit 0'
+                //sh 'echo "UAT Fail!"; exit 1'
+                sh 'echo "UAT Pass!"; exit 0'
             }
         }
     }
