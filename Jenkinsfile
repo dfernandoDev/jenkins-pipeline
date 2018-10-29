@@ -7,6 +7,12 @@ pipeline {
                 sh 'echo "Pass!"; exit 0'
             }
         }
+        stage('UAT') {
+            steps {
+                //sh 'echo "Fail!"; exit 1'
+                sh 'echo "Pass!"; exit 0'
+            }
+        }
     }
     post {
         always {
