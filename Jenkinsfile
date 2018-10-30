@@ -4,7 +4,7 @@ pipeline {
         stage('Test') {
             steps {
                 //sh 'echo "Test Fail!"; exit 1'
-                echo "count is " + getCount()
+                //echo "count is " + getCount()
                 sh 'echo "Test Pass!"'
             }
         }
