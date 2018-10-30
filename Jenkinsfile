@@ -33,3 +33,8 @@ pipeline {
         }
     }
 }
+
+def getCount()
+{
+    retrun 5
+}
