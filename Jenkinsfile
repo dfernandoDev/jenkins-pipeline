@@ -35,7 +35,8 @@ pipeline {
     }
 }
 
-def getCount()
+@NonCPS
+def int getCount()
 {
     retrun 5
 }
